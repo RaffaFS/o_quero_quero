@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "Karla", sans-serif;
+}
+
+body{
+    background-image: url(que-c0142ce0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    position: relative;
+}
+body::before{
+    background-color: rgb(0, 0, 0, .8);
+    content: '';
+    position: absolute;
+    inset: 0;
+}
+
+.container{
+    position: relative;
+    max-width: 90%;
+    width: 720px;
+    height: 150vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.text-box{
+    text-align: justify;
+    position: absolute;
+    margin-top: 10vh;
+}
+
+.title{
+    font-family: "Oswald", sans-serif;
+    font-size: 56px;
+    margin-bottom: 32px;
+}
+.description{
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+.question{
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    margin-bottom: 48px;
+}
+.small{
+    font-size: 12px;
+    margin-bottom: 8px;
+}
